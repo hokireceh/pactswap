@@ -1,0 +1,21 @@
+{
+  "name": "telegram-checkin-bot",
+  "version": "1.0.0",
+  "description": "Daily check-in Telegram bot with Ethereum wallet integration",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cloudscraper": "^4.6.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.10.0",
+    "telegraf": "^4.16.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
